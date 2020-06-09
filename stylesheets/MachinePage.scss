@@ -1,0 +1,42 @@
+@import 'font';
+
+.machineInfoTable {
+  padding: 1%;
+}
+
+.machineName {
+  background: white;
+  padding: 2vh; 
+  border: 1px solid lightgrey;
+  margin: 2vh;
+}
+
+.tableItem {
+  background: white;
+  border: 1px solid lightgrey;
+  width: 70%;
+}
+
+.machineProps {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  table-layout: fixed;
+  float: left;
+}
+
+.colTitle {
+  float: left;
+  margin-left: 5px;
+}
+
+.colContent {
+  float: right;
+  margin-right: 5px;
+}
+
+.graph {
+  margin: 4vh;
+}

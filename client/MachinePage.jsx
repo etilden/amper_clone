@@ -37,7 +37,7 @@ const MachinePage = ({
   };
 
   return (
-    <div>
+    <div className='app'>
       <div className="machineName">
           <h1>
             {machine.name}
